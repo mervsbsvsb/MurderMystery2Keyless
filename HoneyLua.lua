@@ -2,7 +2,7 @@ local StarterGui = game:GetService("StarterGui")
 StarterGui:SetCore("SendNotification", {
     Title = "read NOW",
     Text = "wait like 20-30s for the ui to load",
-    Duration = 15,
+    Duration = 30,
     Icon = "rbxassetid://1234567890" 
 })
 task.wait(0.1)
